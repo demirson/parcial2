@@ -1,0 +1,13 @@
+C:\Users\DemirsonBenavides\source\repos\parcial2\bin\Release\netcoreapp3.1\parcial2.exe
+C:\Users\DemirsonBenavides\source\repos\parcial2\bin\Release\netcoreapp3.1\parcial2.deps.json
+C:\Users\DemirsonBenavides\source\repos\parcial2\bin\Release\netcoreapp3.1\parcial2.runtimeconfig.json
+C:\Users\DemirsonBenavides\source\repos\parcial2\bin\Release\netcoreapp3.1\parcial2.runtimeconfig.dev.json
+C:\Users\DemirsonBenavides\source\repos\parcial2\bin\Release\netcoreapp3.1\parcial2.dll
+C:\Users\DemirsonBenavides\source\repos\parcial2\bin\Release\netcoreapp3.1\parcial2.pdb
+C:\Users\DemirsonBenavides\source\repos\parcial2\obj\Release\netcoreapp3.1\parcial2.csprojAssemblyReference.cache
+C:\Users\DemirsonBenavides\source\repos\parcial2\obj\Release\netcoreapp3.1\parcial2.csproj.CoreCompileInputs.cache
+C:\Users\DemirsonBenavides\source\repos\parcial2\obj\Release\netcoreapp3.1\parcial2.AssemblyInfoInputs.cache
+C:\Users\DemirsonBenavides\source\repos\parcial2\obj\Release\netcoreapp3.1\parcial2.AssemblyInfo.cs
+C:\Users\DemirsonBenavides\source\repos\parcial2\obj\Release\netcoreapp3.1\parcial2.dll
+C:\Users\DemirsonBenavides\source\repos\parcial2\obj\Release\netcoreapp3.1\parcial2.pdb
+C:\Users\DemirsonBenavides\source\repos\parcial2\obj\Release\netcoreapp3.1\parcial2.genruntimeconfig.cache
