@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DemirsonBenavides\\source\\repos\\parcial2\\parcial2.csproj": {}
+    "C:\\Users\\DemirsonBenavides\\Documents\\GitHub\\parcial2\\parcial2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DemirsonBenavides\\source\\repos\\parcial2\\parcial2.csproj": {
+    "C:\\Users\\DemirsonBenavides\\Documents\\GitHub\\parcial2\\parcial2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DemirsonBenavides\\source\\repos\\parcial2\\parcial2.csproj",
+        "projectUniqueName": "C:\\Users\\DemirsonBenavides\\Documents\\GitHub\\parcial2\\parcial2.csproj",
         "projectName": "parcial2",
-        "projectPath": "C:\\Users\\DemirsonBenavides\\source\\repos\\parcial2\\parcial2.csproj",
+        "projectPath": "C:\\Users\\DemirsonBenavides\\Documents\\GitHub\\parcial2\\parcial2.csproj",
         "packagesPath": "C:\\Users\\DemirsonBenavides\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DemirsonBenavides\\source\\repos\\parcial2\\obj\\",
+        "outputPath": "C:\\Users\\DemirsonBenavides\\Documents\\GitHub\\parcial2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

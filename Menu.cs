@@ -24,20 +24,20 @@ namespace parcial2
         }
         public void menuPrincipal()
         {
-
+            Console.Clear();
             Console.WriteLine("Introduzca el numero de la opcion que desea realizar:");
-            Console.WriteLine("1. Mostrar Libros");
-            Console.WriteLine("2. Buscar Libro");
-            Console.WriteLine("3. Ordenar Libros");
-            Console.WriteLine("4. Agregar Libro");
-            Console.WriteLine("5. Modificar Libro.");
-            Console.WriteLine("6. Eliminar Libro");
+            Console.WriteLine("1. Mostrar Libros");  //listo
+            Console.WriteLine("2. Buscar Libro");   //listo
+            Console.WriteLine("3. Ordenar Libros");  //listo
+            Console.WriteLine("4. Agregar Libro");  //listo
+            Console.WriteLine("5. Modificar Libro.");  //listo 
+            Console.WriteLine("6. Eliminar Libro"); //listo
             Console.WriteLine("7. Bibliotecarios");
             Console.WriteLine("8. Salir");
 
 
 
-            switch (FuncionesVarias.convertirNumero(1, 8))
+            switch (FuncionesVarias.introducirDatoParaMenu(1, 8))
             {
                 case 1:
                     subMenuMostrarLibros();
@@ -79,12 +79,12 @@ namespace parcial2
             Console.WriteLine("3. Atras");
 
 
-            switch (FuncionesVarias.convertirNumero(1, 3))
+            switch (FuncionesVarias.introducirDatoParaMenu(1, 3))
             {
                 case 1:
                     Logica.mostrarTodosLibros();                    
                     break;
-                case 2:
+                case 2:               
                     Logica.mostrarLibrosPorCategoria();
                     break;
                 default:
@@ -93,6 +93,8 @@ namespace parcial2
             }
 
         }
+
+       
 
 
         public void subMenuBibliotecarios()
@@ -103,12 +105,11 @@ namespace parcial2
             Console.WriteLine("2. Buscar Bibliotecarios");
             Console.WriteLine("3. Agregar Bibliotecarios");
             Console.WriteLine("4. Modificar Bibliotecarios");
-            Console.WriteLine("5. Eliminar Bibliotecarios");
-            Console.WriteLine("6. Atras");
+            Console.WriteLine("5. Atras");
 
           
 
-            switch (FuncionesVarias.convertirNumero(1, 6))
+            switch (FuncionesVarias.introducirDatoParaMenu(1, 6))
             {
                 case 1:
                     Logica.mostrarBibliotecarios();
@@ -121,10 +122,7 @@ namespace parcial2
                     break;
                 case 4:
                     Logica.modificarBibliotecario();
-                    break;
-                case 5:
-                    Logica.eliminarBibliotecario();
-                    break;              
+                    break;                          
                 default:
                     Console.Clear();
                     break;
@@ -141,11 +139,11 @@ namespace parcial2
             Console.WriteLine("1. Buscar Libro Por ID");
             Console.WriteLine("2. Buscar Libro Por Titulo");
             Console.WriteLine("3. Buscar Libros Por Autor");
-            Console.WriteLine("4. Buscar Libros Agregados Por Bibliotecarios");
+            Console.WriteLine("4. Buscar Libros Por ID de Bibliotecarios");
             Console.WriteLine("5. Atras");
 
 
-            switch (FuncionesVarias.convertirNumero(1, 5))
+            switch (FuncionesVarias.introducirDatoParaMenu(1, 5))
             {
                 case 1:
                     Logica.buscarLibroPorId();
@@ -174,12 +172,9 @@ namespace parcial2
             Console.WriteLine("Introduzca el numero de la opcion que desea realizar:");
             Console.WriteLine("1. Ordenar Por Sistemas de Clasificacion Dewey");
             Console.WriteLine("2. Ordenar Por Año de Publicacion");
-            Console.WriteLine("3. Ordenar Alfabeticamente por Primera Letra Del Titulo");
-            Console.WriteLine("4. Atras");
+            Console.WriteLine("3. Atras");
 
-         
-
-            switch (FuncionesVarias.convertirNumero(1, 4))
+            switch (FuncionesVarias.introducirDatoParaMenu(1, 4))
             {
                 case 1:
                     Logica.ordenarSistemaDewey();
@@ -187,16 +182,11 @@ namespace parcial2
                 case 2:
                     Logica.ordenarAñoPublicacion();
                     break;
-                case 3:
-                    Logica.ordenarAlfabeticamente();
-                    break;
                 default:
                     Console.Clear();
                     break;
 
             }
-
-
         }
     }
 }
